@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Calculator</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="calculator.css">
+	<script type="text/javascript" src="calculator.js"></script>
+</head>
+
+<body>
+	<center>
+		<p>Hey there, Welcome &#128512;  &#128516;</p>
+	<form>
+		<table>
+			<caption>Calculator</caption>
+			<thead >
+				<!--firstrow-->
+				<tr><td colspan="4"><input type="text" id="txt" placeholder="0"></td></tr>
+			</thead>
+
+			<tbody>
+				<!--secondrow -->	
+				<tr>
+					<td><input type="reset" value="C" style="background-color: orange;color:white;border-radius:15px;height:30px"></td>
+					<td ><input type="button" class='lo' value="(" onclick="display(this.value)"></td>
+					<td><input type="button" class='lo' value=")" onclick="display(this.value)"></td>
+					<td><input type="button" class='lp' value="*"onclick="display(this.value)"></td>
+				</tr>
+				<!-- thirdrow-->
+				<tr>
+					<td><input type="button" class='lo' value="e" onclick="display(this.value)"></td>
+					<td><input type="button" class='lo' value="**"onclick="display(this.value)"></td>
+					<td><input type="button" class='lo' value="%" onclick="display(this.value)"></td>
+					<td><input type="button" class='lp' value="/"onclick="display(this.value)"></td>
+					
+				</tr>
+				<!-- fourthrow -->
+				<tr>
+					<td><input type="button" class='w' value="7"onclick="display(this.value)"></td>
+					<td><input type="button" class='w' value="8"onclick="display(this.value)"></td>
+					<td><input type="button" class='w' value="9"onclick="display(this.value)"></td>
+					<td><input type="button" class='lp' value="-"onclick="display(this.value)"></td>
+				</tr>
+				<!-- fifthrow -->
+				<tr>
+					<td><input type="button" class='w' value="4"onclick="display(this.value)"></td>
+					<td><input type="button" class='w' value="5"onclick="display(this.value)"></td>
+					<td><input type="button" class='w' value="6"onclick="display(this.value)"></td>
+					<td><input type="button" class='lp' value="+"onclick="display(this.value)"></td>
+				</tr>
+				<!-- sixthrow -->
+				<tr>
+					<td><input type="button" class='w' value="1"onclick="display(this.value)"></td>
+					<td><input type="button" class='w' value="2"onclick="display(this.value)"></td>
+					<td><input type="button" class='w' value="3"onclick="display(this.value)"></td>
+					<td  rowspan='2'><input type="button" onclick="compute()" value="="style="background-color: purple;color:white;border-radius:19px;width:80%;height:70px;" ></td>
+				</tr>
+				<!-- seventhrow -->
+				<tr style="border-radius: 20px">
+					<td><input type="button" class='w' value="."onclick="display(this.value)"></td>
+					<td><input type="button" class='w' value="0"onclick="display(this.value)"></td>
+					<td><input type="button" class='w' value="&larr;" onclick="backspace()"></td>
+				</tr>
+			</tbody>
+		</table>
+	
+	</form>
+	</center>
+<a href="https://drive.google.com/drive/my-drive"></a>
+</body>
+</html>
