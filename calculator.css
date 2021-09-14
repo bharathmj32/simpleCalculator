@@ -30,7 +30,7 @@
 			height: 60px; text-align:right; overflow-x: auto;
 			width:92%;
 			margin:12px 3px 12px 3px; border-radius: 8px;
-			font: bold normal 25px/30px monospace;
+			font: bold normal 35px monospace;
 			color:darkorange; text-shadow: 1px 2px 3px #e28b8bc2;
 		}
 		input{
